@@ -1,0 +1,31 @@
+= Getting Started with WildFly microservices on Kubernetes
+:summary: Learn how to run WildFly microservices on Kubernetes
+:includedir: _includes
+include::{includedir}/_attributes.adoc[]
+
+== In these guides, you will learn how to run simple run WildFly microservices on Kubernetes.
+
+== Intro
+
+We will focus on:
+
+* *WildFly Bootable Jar*: with *"WildFly Bootable Jar"* you create stand-alone applications that you can simply run as:
+
+ java -jar wildfly-bootable-jar.jar
+
+* *Kubernetes*: containerize and run your *"WildFly Bootable Jar"* applications in Kubernetes
+
+== Topics
+
+* link:jax-rs-application-using-bootable-jar-part1[Create a JAX-RS application using Bootable Jar]
+
+== What's next?
+
+TODO
+
+// Always add this section last to link to any relevant content
+[[references]]
+== References
+
+* https://microprofile.io/specifications/microprofile-config/[Eclipse MicroProfile Config]
+
